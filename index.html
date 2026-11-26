@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El Diario de Nosotros</title>
+  <meta name="description" content="Edición especial: ¡por fin se graduó!">
+  <meta property="og:title" content="El Diario de Nosotros — Edición especial">
+  <meta property="og:description" content="La gran noticia del año: ¡por fin se graduó!">
+  <meta property="og:image" content="fotos/principal.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ PORTADA DE ENTRADA ============ -->
+  <div class="intro" id="intro">
+    <div class="intro__paper" id="introPaper">
+      <p class="intro__extra">¡EXTRA! ¡EXTRA!</p>
+      <p class="intro__masthead">El Diario de Nosotros</p>
+      <p class="intro__headline">¡SE GRADUÓ!</p>
+      <p class="intro__sub">Edición especial · Un solo ejemplar en el mundo</p>
+      <button class="btn btn--big" id="openPaper">Leer la noticia</button>
+    </div>
+  </div>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>ÚLTIMA HORA: se gradúa la mujer más brillante de Monterrey</span>
+      <span>Novio reporta niveles de orgullo nunca antes registrados</span>
+      <span>La distancia, derrotada una vez más</span>
+      <span>Seis años después, el equipo sigue invicto</span>
+      <span>Confirmado: él sí estaba en la foto (más o menos)</span>
+      <span>ÚLTIMA HORA: se gradúa la mujer más brillante de Monterrey</span>
+      <span>Novio reporta niveles de orgullo nunca antes registrados</span>
+      <span>La distancia, derrotada una vez más</span>
+      <span>Seis años después, el equipo sigue invicto</span>
+      <span>Confirmado: él sí estaba en la foto (más o menos)</span>
+    </div>
+  </div>
+
+  <main class="paper" id="paper">
+
+    <!-- ============ CABECERA ============ -->
+    <header class="masthead">
+      <div class="masthead__ears">
+        <div class="ear">
+          <strong>Edición especial</strong>
+          <span>Año 6 · N.º 1</span>
+        </div>
+        <h1 class="masthead__title">El Diario de Nosotros</h1>
+        <div class="ear ear--right">
+          <strong>Precio</strong>
+          <span>Un beso</span>
+        </div>
+      </div>
+      <div class="masthead__bar">
+        <span>Monterrey, N.L. — Portugal</span>
+        <span id="fechaEdicion">Jueves, 26 de noviembre de 2026</span>
+        <span>«Toda la verdad, todo el amor»</span>
+      </div>
+    </header>
+
+    <!-- ============ TITULAR ============ -->
+    <section class="headline reveal">
+      <p class="kicker">La noticia del año</p>
+      <h2 class="headline__title">¡POR FIN! <span class="red">SE GRADUÓ</span></h2>
+      <p class="headline__deck">
+        Tras años de desvelos, entregas a medianoche y litros de café, <strong data-ella>ella</strong>
+        recibe su título en Monterrey. Desde Portugal, su novio declara:
+        <em>«No podría estar más orgulloso. Ni aunque lo intentara»</em>.
+      </p>
+    </section>
+
+    <!-- ============ NOTA PRINCIPAL ============ -->
+    <section class="lead">
+      <figure class="lead__photo reveal">
+        <div class="photo-frame" id="photoFrame">
+          <img src="fotos/principal.jpg" alt="Ella con su título, y él a su lado en la foto del día de la graduación">
+          <div class="stamp" id="stamp" aria-live="polite">
+            <span class="stamp__top">Verificado</span>
+            <span class="stamp__line">Foto: hecha con IA</span>
+            <span class="stamp__line">Amor: 100% real</span>
+          </div>
+        </div>
+        <figcaption>
+          <strong>FOTO EXCLUSIVA.</strong> La graduada posa con su título junto a su novio, quien según testigos
+          «apareció de la nada, sin boleto de avión y con el traje perfectamente planchado».
+        </figcaption>
+        <button class="btn btn--small" id="factCheck">🔍 Verificar esta foto</button>
+      </figure>
+
+      <article class="lead__text columns reveal">
+        <span class="byline">Por <strong data-el>tu novio</strong>, corresponsal internacional en Portugal</span>
+        <p class="dropcap">MONTERREY. — Hoy se confirmó lo que todos sabíamos desde hace tiempo: que lo iba a lograr.
+          Con una sonrisa que, según fuentes cercanas, «iluminaba más que los reflectores del auditorio»,
+          <span data-ella>ella</span> recibió su título y puso punto final a una de las etapas más exigentes de su vida.
+        </p>
+        <p>
+          No fue fácil. Hubo noches sin dormir, exámenes que parecían imposibles, proyectos que se
+          entregaban a un minuto del cierre y días en que rendirse parecía lo más lógico. No se rindió.
+          Nunca lo hace.
+        </p>
+        <p>
+          En una imagen que ya da la vuelta al mundo (bueno, al nuestro) se ve a la graduada junto a su
+          novio. Los expertos han confirmado que es obra de la inteligencia artificial. Él, en cambio,
+          insiste: <em>«Yo sí estaba. Quizá no en cuerpo, pero estaba. No me iba a perder la foto
+          más importante del año por 8,000 kilómetros de nada»</em>.
+        </p>
+        <p>
+          Consultado sobre cómo se siente, el novio admitió que el orgullo viene con un poco de tristeza:
+          <em>«Me hubiera encantado estar ahí, aplaudir más fuerte que nadie y abrazarla en cuanto bajara
+          del escenario. Me toca celebrarla desde lejos, pero la celebro con todo»</em>.
+        </p>
+        <p>
+          Esta redacción pudo confirmar que llevan <strong>seis años</strong> luchando juntos, apoyándose
+          en lo difícil y celebrando cada logro del otro como si fuera propio. Este logro es de ella, pero
+          él lo siente un poquito suyo también: lo vio pelearlo cada día.
+        </p>
+        <p class="continue">Continúa en la sección <a href="#carta">Opinión →</a></p>
+      </article>
+    </section>
+
+    <hr class="rule rule--double">
+
+    <!-- ============ INTERNACIONAL: DISTANCIA ============ -->
+    <section class="section distance" id="distancia">
+      <header class="section__head reveal">
+        <p class="section__label">Internacional</p>
+        <h3 class="section__title">Un océano de por medio: <span class="red"><span id="kmTotal">8,354</span> km</span> separan a la pareja</h3>
+        <p class="section__deck">Aunque el Atlántico se empeñe, los besos siguen llegando. Pruébelo usted mismo.</p>
+      </header>
+
+      <div class="distance__grid">
+        <div class="map-card reveal">
+          <svg id="map" viewBox="0 0 800 460" role="img" aria-label="Mapa con la ruta entre Portugal y Monterrey"></svg>
+          <div class="map-card__actions">
+            <button class="btn" id="sendKiss">💋 Enviar un beso a Monterrey</button>
+            <p class="kiss-count">Besos enviados: <strong id="kissCount">0</strong></p>
+          </div>
+          <p class="map-card__note" id="kissNote">Tiempo estimado de llegada: instantáneo. El amor no hace escalas.</p>
+        </div>
+
+        <aside class="distance__side reveal">
+          <div class="clocks">
+            <div class="clock">
+              <p class="clock__city">Monterrey</p>
+              <p class="clock__time" id="timeMty">--:--</p>
+              <p class="clock__msg" id="msgMty"></p>
+            </div>
+            <div class="clock">
+              <p class="clock__city" id="cityEl">Portugal</p>
+              <p class="clock__time" id="timeEl">--:--</p>
+              <p class="clock__msg" id="msgEl"></p>
+            </div>
+          </div>
+
+          <div class="shrink">
+            <p class="shrink__title">Experimento: acorte usted la distancia</p>
+            <div class="shrink__track">
+              <span class="shrink__person" id="personL">🙋🏻‍♀️</span>
+              <span class="shrink__heart" id="shrinkHeart">❤️</span>
+              <span class="shrink__person" id="personR">🙋🏻‍♂️</span>
+            </div>
+            <input type="range" id="shrinkRange" min="0" max="100" value="0" aria-label="Acortar la distancia">
+            <p class="shrink__km"><strong id="shrinkKm">8,354</strong> km</p>
+            <p class="shrink__msg" id="shrinkMsg">Arrastre para acercarlos.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============ CIFRAS ============ -->
+    <section class="section stats">
+      <header class="section__head reveal">
+        <p class="section__label">Economía del corazón</p>
+        <h3 class="section__title">Seis años en cifras</h3>
+      </header>
+      <div class="stats__grid">
+        <div class="stat reveal"><p class="stat__num" data-count="6">0</p><p class="stat__label">años luchando juntos</p></div>
+        <div class="stat reveal"><p class="stat__num" data-count="2190" data-prefix="+">0</p><p class="stat__label">días eligiéndonos</p></div>
+        <div class="stat reveal"><p class="stat__num" data-count="2">0</p><p class="stat__label">continentes, un mismo equipo</p></div>
+        <div class="stat reveal"><p class="stat__num" data-count="1">0</p><p class="stat__label">título merecidísimo</p></div>
+        <div class="stat reveal"><p class="stat__num stat__num--inf">∞</p><p class="stat__label">veces que te diría «te amo»</p></div>
+      </div>
+    </section>
+
+    <hr class="rule rule--double">
+
+    <!-- ============ ARCHIVO ============ -->
+    <section class="section archive">
+      <header class="section__head reveal">
+        <p class="section__label">Archivo histórico</p>
+        <h3 class="section__title">Las pruebas de que somos un gran equipo</h3>
+        <p class="section__deck">Toque cada fotografía para leer lo que está escrito detrás.</p>
+      </header>
+
+      <div class="archive__grid">
+        <button class="polaroid reveal" style="--r:-3deg">
+          <span class="polaroid__inner">
+            <span class="polaroid__front">
+              <img src="fotos/fiesta.jpg" alt="Los dos en una fiesta de noche" loading="lazy">
+              <span class="polaroid__cap">Diciembre, 2021</span>
+            </span>
+            <span class="polaroid__back">
+              <span>Tú de rosa y yo sin poder dejar de mirarte. Ahí ya sabía que me había sacado la lotería.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="polaroid reveal" style="--r:2deg">
+          <span class="polaroid__inner">
+            <span class="polaroid__front">
+              <img src="fotos/beso.jpg" alt="Los dos besándose sosteniendo un documento frente a una universidad" loading="lazy">
+              <span class="polaroid__cap">Celebrando logros</span>
+            </span>
+            <span class="polaroid__back">
+              <span>Así celebramos siempre: juntos, el logro del otro como si fuera propio. Hoy te toca a ti brillar.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="polaroid polaroid--live reveal" style="--r:-1.5deg">
+          <span class="polaroid__inner">
+            <span class="polaroid__front">
+              <video src="fotos/momento.mp4" poster="fotos/momento-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+              <span class="polaroid__badge">● Foto viva</span>
+              <span class="polaroid__cap">Por las nubes</span>
+            </span>
+            <span class="polaroid__back">
+              <span>Contigo hasta las alturas se sienten como estar en casa. Contigo todo se siente como estar en casa.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="polaroid reveal" style="--r:3deg">
+          <span class="polaroid__inner">
+            <span class="polaroid__front">
+              <img src="fotos/mar.jpg" alt="Los dos abrazados frente al mar" loading="lazy">
+              <span class="polaroid__cap">Junio, 2023</span>
+            </span>
+            <span class="polaroid__back">
+              <span>Un mar entero de fondo y yo solo podía ver tu sonrisa. Ahora nos separa otro mar, pero ya sabemos cruzarlos.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="polaroid reveal" style="--r:-2deg">
+          <span class="polaroid__inner">
+            <span class="polaroid__front">
+              <img src="fotos/selfie.jpg" alt="Selfie de los dos, él sacando la lengua" loading="lazy">
+              <span class="polaroid__cap">Pruebas de payasadas</span>
+            </span>
+            <span class="polaroid__back">
+              <span>Seis años haciéndonos reír. Prometo seguir sacando la lengua en las fotos importantes.</span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ============ OPINIÓN: CARTA ============ -->
+    <section class="section letter-section" id="carta">
+      <header class="section__head reveal">
+        <p class="section__label">Opinión</p>
+        <h3 class="section__title">Carta abierta a la nueva graduada</h3>
+        <p class="section__deck">Material confidencial. Solo puede abrirlo la destinataria.</p>
+      </header>
+
+      <div class="envelope-wrap reveal">
+        <button class="envelope" id="envelope" aria-expanded="false" aria-controls="letter">
+          <span class="envelope__flap"></span>
+          <span class="envelope__body"></span>
+          <span class="envelope__seal">❤</span>
+          <span class="envelope__label">Para: <span data-ella>ti</span></span>
+        </button>
+        <p class="envelope__hint" id="envelopeHint">Toque el sobre para abrirlo</p>
+      </div>
+
+      <article class="letter" id="letter" hidden>
+        <p class="letter__greet">Mi amor:</p>
+        <p>
+          Hoy es uno de los días más importantes de tu vida y me duele en el alma no estar ahí. Me duele no
+          poder verte cruzar ese escenario, no poder abrazarte en cuanto bajes, no poder ser el que más
+          fuerte aplaude en todo el lugar. Entre Monterrey y Portugal hay más de 8,000 kilómetros, pero te
+          prometo que hoy no hubo uno solo en el que no estuviera pensando en ti.
+        </p>
+        <p>
+          Estoy tan, tan orgulloso de ti. Sé lo que te costó llegar aquí: las noches sin dormir, los
+          exámenes, los días en que quisiste tirar la toalla y no lo hiciste. Esto lo lograste tú, con tu
+          esfuerzo y con esa cabeza brillante que tienes, y nadie te lo va a quitar nunca.
+        </p>
+        <p>
+          Llevamos seis años luchando juntos, sosteniéndonos en lo difícil y disfrutando cada logro del otro
+          como si fuera propio. Hemos aprendido a querernos de cerca y de lejos, y si algo me han enseñado
+          estos años es que contigo cualquier distancia se puede.
+        </p>
+        <p>
+          Te amo más de lo que jamás podré amar a nadie. Y aunque hoy me toque celebrarte desde lejos, ten
+          por seguro que estoy ahí: en cada aplauso, en cada foto y, bueno, literalmente en una de ellas. 😉
+        </p>
+        <p>¡Felicidades, mi graduada favorita! Lo mejor está por venir, y lo vamos a vivir juntos.</p>
+        <p class="letter__sign">Tuyo siempre,<br><span data-el>tu amorcito</span></p>
+      </article>
+    </section>
+
+    <hr class="rule rule--double">
+
+    <!-- ============ VARIEDADES ============ -->
+    <section class="section misc">
+      <div class="misc__grid">
+
+        <div class="misc__col reveal">
+          <p class="section__label">Lotería del amor</p>
+          <h4 class="misc__title">Rasque y gane</h4>
+          <p class="misc__text">Boleto premiado. Solo hay uno y es suyo.</p>
+          <div class="scratch" id="scratch">
+            <div class="scratch__prize">
+              <p class="scratch__big">¡CUPON!</p>
+              <p>Un regalo especial por tu graduación.</p>
+              <p class="scratch__small">Canjeable en cuanto quieras precio reducido. No caduca nunca.</p>
+            </div>
+            <canvas class="scratch__cover" id="scratchCanvas" aria-label="Rasque con el dedo o el ratón"></canvas>
+          </div>
+        </div>
+
+        <div class="misc__col reveal">
+          <p class="section__label">El tiempo</p>
+          <h4 class="misc__title">Pronóstico de hoy</h4>
+          <div class="weather">
+            <p><span class="weather__icon">☀️</span><strong>Monterrey:</strong> despejado, con 100% de probabilidad de orgullo y fuertes ráfagas de aplausos.</p>
+            <p><span class="weather__icon">🌧️</span><strong>Portugal:</strong> nublado, chubascos de nostalgia por la tarde. Se despeja cada vez que piensa en ella.</p>
+          </div>
+          <p class="section__label" style="margin-top:1.4rem">Horóscopo</p>
+          <p class="misc__text"><strong>Graduada:</strong> los astros anuncian éxito profesional, una fiesta muy merecida y un novio que no va a dejar de presumirte nunca.</p>
+        </div>
+
+        <div class="misc__col reveal">
+          <p class="section__label">Clasificados</p>
+          <h4 class="misc__title">Anuncios</h4>
+          <div class="classified"><strong>SE VENDE:</strong> 8,354 km de distancia. Poco uso, muchas ganas de deshacerse de ellos. Acepto cualquier oferta.</div>
+          <div class="classified"><strong>SE BUSCA:</strong> profesionista recién graduada para pasar el resto de la vida juntos. Requisitos: ya los cumple todos.</div>
+          <div class="classified"><strong>OBJETO PERDIDO:</strong> mi corazón. Visto por última vez en Monterrey. Si lo encuentras, quédatelo.</div>
+          <div class="classified"><strong>AVISO:</strong> a partir de hoy, diríjase a ella con el debido respeto académico.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ FINAL ============ -->
+    <section class="finale reveal">
+      <p class="finale__pre">Y ahora, todos de pie</p>
+      <button class="btn btn--big btn--red" id="capsBtn">🎓 ¡Lanzar birretes!</button>
+      <p class="finale__text">Te amo. Felicidades. Estoy contigo, siempre.</p>
+    </section>
+
+    <footer class="colophon">
+      Impreso con amor en Portugal, entregado en Monterrey. Tiraje: un ejemplar, único e irrepetible.
+    </footer>
+  </main>
+
+  <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
